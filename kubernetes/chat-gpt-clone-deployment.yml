@@ -17,7 +17,7 @@ spec:
       terminationGracePeriodSeconds: 30
       containers:
       - name: chat-gpt-clone-app
-        image: sanjeevrisbud/chat-gpt-clone:latest
+        image: jayvardhanchandel/chat-gpt-clone:latest
         imagePullPolicy: "Always"
         ports:
         - containerPort: 3000
