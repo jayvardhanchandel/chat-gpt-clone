@@ -10,6 +10,6 @@ spec:
   - port: 80
     targetPort: 3000
   externalIPs:
-  - 192.168.68.67
+  - 13.201.104.221
   selector:
     app: chat-gpt-clone-app
